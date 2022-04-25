@@ -32,7 +32,6 @@
     <component Cclass="Device" Cgroup="Startup" Cvendor="Nuvoton">
       <file attr="config" category="sourceAsm" name="Library/Device/Nuvoton/m460/Source/ARM/startup_m460.s" version="3.00.001"/>
       <file attr="config" category="source" name="Library/Device/Nuvoton/m460/Source/system_m460.c" version="3.00.001"/>
-      <file attr="config" category="sourceC" name="Library/StdDriver/src/retarget.c" version="3.00.001"/>
     </component>
   </components>
 
@@ -43,46 +42,8 @@
     <group name="library">
       <file category="sourceC" name="Library/StdDriver/src/clk.c"/>
       <file category="sourceC" name="Library/StdDriver/src/sys.c"/>
-      <file category="sourceC" name="Library/StdDriver/src/uart.c"/>
-      <file category="sourceC" name="Library/StdDriver/src/acmp.c"/>
-      <file category="sourceC" name="Library/StdDriver/src/bmc.c"/>
-      <file category="sourceC" name="Library/StdDriver/src/bpwm.c"/>
-      <file category="sourceC" name="Library/StdDriver/src/canfd.c"/>
-      <file category="sourceC" name="Library/StdDriver/src/ccap.c"/>
-      <file category="sourceC" name="Library/StdDriver/src/crc.c"/>
-      <file category="sourceC" name="Library/StdDriver/src/crypto.c"/>
-      <file category="sourceC" name="Library/StdDriver/src/dac.c"/>
-      <file category="sourceC" name="Library/StdDriver/src/eadc.c"/>
-      <file category="sourceC" name="Library/StdDriver/src/ebi.c"/>
-      <file category="sourceC" name="Library/StdDriver/src/ecap.c"/>
-      <file category="sourceC" name="Library/StdDriver/src/epwm.c"/>
-      <file category="sourceC" name="Library/StdDriver/src/eqei.c"/>
-      <file category="sourceC" name="Library/StdDriver/src/fmc.c"/>
       <file category="sourceC" name="Library/StdDriver/src/gpio.c"/>
-      <file category="sourceC" name="Library/StdDriver/src/hbi.c"/>
-      <file category="sourceC" name="Library/StdDriver/src/hsusbd.c"/>
-      <file category="sourceC" name="Library/StdDriver/src/i2c.c"/>
-      <file category="sourceC" name="Library/StdDriver/src/i2s.c"/>
-      <file category="sourceC" name="Library/StdDriver/src/keystore.c"/>
-      <file category="sourceC" name="Library/StdDriver/src/kpi.c"/>
-      <file category="sourceC" name="Library/StdDriver/src/pdma.c"/>
-      <file category="sourceC" name="Library/StdDriver/src/qspi.c"/>
-      <file category="sourceC" name="Library/StdDriver/src/rng.c"/>
-      <file category="sourceC" name="Library/StdDriver/src/rtc.c"/>
-      <file category="sourceC" name="Library/StdDriver/src/sc.c"/>
-      <file category="sourceC" name="Library/StdDriver/src/scuart.c"/>
-      <file category="sourceC" name="Library/StdDriver/src/sdh.c"/>
-      <file category="sourceC" name="Library/StdDriver/src/spi.c"/>
-      <file category="sourceC" name="Library/StdDriver/src/spim.c"/>
-      <file category="sourceC" name="Library/StdDriver/src/timer.c"/>
-      <file category="sourceC" name="Library/StdDriver/src/timer_pwm.c"/>
-      <file category="sourceC" name="Library/StdDriver/src/trng.c"/>
-      <file category="sourceC" name="Library/StdDriver/src/usbd.c"/>
-      <file category="sourceC" name="Library/StdDriver/src/usci_i2c.c"/>
-      <file category="sourceC" name="Library/StdDriver/src/usci_spi.c"/>
-      <file category="sourceC" name="Library/StdDriver/src/usci_uart.c"/>
-      <file category="sourceC" name="Library/StdDriver/src/wdt.c"/>
-      <file category="sourceC" name="Library/StdDriver/src/wwdt.c"/>
+      <file category="sourceC" name="Library/StdDriver/src/retarget.c"/>
     </group>
   </files>
 
